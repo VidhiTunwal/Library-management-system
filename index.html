@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management</title>
+    <style>
+        body {
+            background-image: url('backgr5.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        /* Add more CSS for styling */
+    </style>
+    <script>
+        function closeWindow() {
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="Home.html" method="post">
+            <input type="text" name="username" placeholder="Username"><br><br>
+            <input type="password" name="password" placeholder="Password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p><a href="#" onclick="closeWindow();">Close</a></p>
+    </div>
+</body>
+</html>
+
